@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InitialSignUp">
+
+    <RelativeLayout
+      android:layout_width="wrap_content"
+      android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="225dp"
+        android:layout_marginLeft="100dp"
+        android:text="Save Now"
+        android:textStyle ="bold|italic"
+        android:textSize="50dp"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint ="Email"
+        android:ems="10"
+        android:focusable="true"
+        android:textColorHint = "#ffff299f"
+        android:layout_below="@+id/welcome"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft ="75dp" />
+
+    <Button
+        android:id="@+id/signUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_below="@id/email"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="50dp"
+        android:textSize="25dp"
+        android:textStyle ="bold|italic"
+        android:text="SIGN UP" />
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

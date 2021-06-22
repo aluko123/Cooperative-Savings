@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserSignUp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="225dp"
+        android:layout_marginLeft="100dp"
+        android:text="Save Now"
+        android:textStyle ="bold|italic"
+        android:textSize="50dp"/>
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/idPassword"
+        android:layout_below="@id/welcome"
+        android:hint ="Password"
+        android:layout_marginTop="20dp"
+        android:textColorHint="#ffff299f"
+        android:layout_marginLeft ="75dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/idcPassword"
+        android:layout_below="@id/idPassword"
+        android:hint ="Confirm Password"
+        android:textColorHint="#ffff299f"
+        android:layout_marginLeft ="75dp"/>
+
+    <Button
+        android:id="@+id/signUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_below="@id/idPassword"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="50dp"
+        android:textSize="25dp"
+        android:textStyle ="bold|italic"
+        android:text="SIGN UP" />
+
+</RelativeLayout>
+
+    </RelativeLayout>
